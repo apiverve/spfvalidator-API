@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/spfvalidator",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "SPF Validator checks the Sender Policy Framework (SPF) DNS record for a domain to verify if it’s valid and optionally whether a given IP address is authorized to send emails for that domain.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/spfvalidator-API.git"
   },
   "keywords": [
-    "spf","spf check","spf validator","spf test","email authentication"
+    "spf", "spf check", "spf validator", "spf test", "email authentication"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/spfvalidator-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/spfvalidator?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/spfvalidator?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.8.4"
+    "axios": "1.13.2"
   }
 }
